@@ -48,6 +48,7 @@ KIP is highly flexible. It scales progressively based on the component's complex
  ├── 📄 _hook.ts       # useLoginForm()
  ├── 📄 _util.ts       # validateEmail(), formatPassword()
  ├── 📄 _type.ts       # LoginFormProps, FormState
+ ├── 📄 _style.ts      # Component styles
  ├── 📄 _component.tsx # The UI tying it together
  └── 📄 index.ts       # Gate
 ```
@@ -59,6 +60,7 @@ KIP is highly flexible. It scales progressively based on the component's complex
  ├── 📄 _util.ts       # Data transformers
  ├── 📄 _type.ts       # Complex generic types
  ├── 📄 _store.ts      # Local component state (Zustand/Context)
+ ├── 📄 _style.ts      # Component styles
  ├── 📄 _slots.tsx     # Internal sub-components (Row, Cell, Header)
  ├── 📄 _component.tsx # Main Wrapper
  └── 📄 index.ts       # Gate
